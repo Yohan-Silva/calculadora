@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body {
+    text-align: jus;
+    color: #fff;
+    background: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-matematico-e-geometrico-em-remix-de-educacao-azul-gradiente_53876-114100.jpg?size=626&ext=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background: #00008B;
+    border: 2px solid #1E90FF;
+    margin: 5%;
+}
+
+#calculator {
+    max-width: 360px;
+    background: #00bfff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #191970;
+    background-color: #836FFF;
+    border: none;
+    box-sizing: border-box;
+}
+
+.operator {
+    color: #191970;
+}
+
+#ac {
+    color: 	#483D8B;
+}
+
+.equal {
+    width: calc(50% - 12px);
+}
+
+button {
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    color: #4682B4;
+    box-shadow: 1px 1px 20px -3px #0000FF;
+    margin: 10px 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+    box-shadow: 0 2px 4px 1px #0000FF;
+}
+
+footer {
+    margin-top: 10px;
+    margin-left: 60%;
+}
